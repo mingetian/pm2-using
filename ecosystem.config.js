@@ -25,7 +25,7 @@ module.exports = {
   deploy : {
     production : {
       user : 'mingetian',
-      host : 'git@github.com:mingetian',
+      host : '127.0.0.1',
       ref  : 'origin/master',
       repo : 'git@github.com:mingetian/pm2-using.git',
       path : '/home/thm/www/production',
